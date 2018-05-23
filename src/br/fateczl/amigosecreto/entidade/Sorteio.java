@@ -1,9 +1,10 @@
 package br.fateczl.amigosecreto.entidade;
 
+import java.io.Serializable;
 import java.sql.Date;
 
-public class Sorteio {
-
+public class Sorteio implements Serializable{
+	private static final long serialVersionUID = 1L;
 	private Date data;
 	private String local;
 	private String horario;
