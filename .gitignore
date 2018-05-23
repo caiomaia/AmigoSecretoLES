@@ -1,1 +1,9 @@
 /build/
+/.settings
+/.settings/org.eclipse.jdt.core.prefa
+
+.classpath
+.project
+
+*.jar
+*.class
